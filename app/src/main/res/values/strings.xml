@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TPLABV</string>
+    <string name="API_KEY">API KEY</string>
+    <string name="hintapeykeytastedive">API KEY</string>
+    <string name="guardarapikeytastedive">SAVE</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="api_key">Api Key</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="hint_search">Search</string>
+    <string name="button_search">SEARCH</string>
+    <string name="check_music">Music</string>
+    <string name="check_movies">Movies</string>
+    <string name="check_books">Books</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+</resources>
