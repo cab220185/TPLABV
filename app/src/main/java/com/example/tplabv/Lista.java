@@ -114,6 +114,7 @@ public class Lista extends AppCompatActivity implements MyOnItemClick ,Handler.C
         ImageView searchIcon = (ImageView)searchView.findViewById(androidx.appcompat.R.id.search_mag_icon);
         searchIcon.setImageResource(R.drawable.ic_filter_list_black_24dp);
         searchView.setQueryHint("Filter");
+		searchView.clearFocus();
 
         return true;
     }
