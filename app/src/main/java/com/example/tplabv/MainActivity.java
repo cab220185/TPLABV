@@ -16,6 +16,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
+import android.widget.Toast;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -208,6 +210,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             urlarmada = GenerarUrl(busquedafinal);
             intent.putExtra("url", urlarmada);
             super.startActivity(intent);
+
+        }else if (musica.isChecked()==false && pelicula.isChecked()==false && libros.isChecked()==false){
+
+            musica.setChecked((v.getId()==musica.getId())?true:false);
+            pelicula.setChecked((v.getId()==pelicula.getId())?true:false);
+            libros.setChecked((v.getId()==libros.getId())?true:false);
+            Toast.makeText(MainActivity.this,
+                    R.string.atleastonechecked,
+                    Toast.LENGTH_SHORT).show();
+
 
         }
 

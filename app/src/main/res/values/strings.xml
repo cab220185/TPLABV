@@ -13,4 +13,5 @@
     <string name="check_books">Books</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
+    <string name="atleastonechecked">At least one option is required</string>
 </resources>
